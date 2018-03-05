@@ -86,17 +86,13 @@ public class MusicService {
 	 * @return
 	 */
 	public boolean upload(HttpServletRequest request) {
-		// request 中 url qurystirng should do url decode.
-		//referance:http://blog.csdn.net/lian_zhihui1984/article/details/6822201
-		// 判断enctype属性是否为multipart/form-data
 
-		// Create a factory for disk-based file items
 		DiskFileItemFactory factory = new DiskFileItemFactory();
 
-		// Create a new file upload handler
+
 		ServletFileUpload upload = new ServletFileUpload(factory);
 
-		// 设置上传内容的大小限制（单位：字节）
+
 		upload.setSizeMax(30*1024*1024);
 
 		// Parse the request
@@ -135,11 +131,7 @@ public class MusicService {
 							musicSinger=value;
 					}
 		    } else {
-		    	//如果是文件字段
-//		        String fieldName = item.getFieldName();
-//		        String value = item.getName();//会将完整路径名传过来  
-//                int start = value.lastIndexOf("\\");  
-//                String fileName = value.substring(start+1);
+
                 OutputStream out=null;
                 InputStream in=null;
 				try {

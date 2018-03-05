@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="javaWeb/src"/>
+	<classpathentry kind="lib" path="javaWeb/bson-3.2.2.jar"/>
+	<classpathentry kind="lib" path="javaWeb/camel-web-standalone-2.0-M1.jar"/>
+	<classpathentry kind="lib" path="javaWeb/click-1.4.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.0-5.5.23.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.3.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.3.3-sources.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.3.3-test-sources.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.3.3-tests.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-fileupload-1.3.3.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-io-1.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-io-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="javaWeb/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="javaWeb/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="javaWeb/json.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongo-java-driver-3.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongodb-driver-3.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongodb-driver-3.6.1.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongodb-driver-async-3.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongodb-driver-core-3.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="javaWeb/mongodb-driver-core-3.6.1.jar"/>
+	<classpathentry kind="lib" path="javaWeb/servlet-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
